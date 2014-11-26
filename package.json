@@ -1,6 +1,6 @@
 {
   "name": "dadata",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "REST API for dadata.ru",
   "keywords": "address, birthdate, email, name, phone, parsing, suggestions",
   "main": "index.js",

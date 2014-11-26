@@ -65,7 +65,7 @@ function Dadata (API_KEY, SECRET_KEY) {
 
   // don't fail if someone have forgotten about new
   else if (!(this instanceof Dadata))
-    return new Dadata(arguments);
+    return new Dadata(API_KEY, SECRET_KEY);
 
   // ok
   else {
