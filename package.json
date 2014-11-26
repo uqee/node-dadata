@@ -1,0 +1,24 @@
+{
+  "name": "dadata",
+  "version": "0.0.1",
+  "description": "REST API for dadata.ru",
+  "keywords": "address, birthdate, email, name, phone, parsing, suggestions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uqee/node-dadata.git"
+  },
+  "author": {
+    "name": "Denis Zhbankov",
+    "email": "denis.zhbankov@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uqee/node-dadata/issues"
+  },
+  "homepage": "https://github.com/uqee/node-dadata",
+  "dependencies": {}
+}
