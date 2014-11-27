@@ -16,9 +16,9 @@ dadata('address', ['мск сухонска 11/-89'], function (err, res) {
 
 Before use, this service must be properly configured: you have to provide your `API_KEY` and `SECRET_KEY` to the constructor.
 ```javascript
-  var Dadata = require('dadata'),
-      dadata_account_1 = new Dadata('<API_KEY_1>', '<SECRET_KEY_1>'),
-      dadata_account_2 = new Dadata('<API_KEY_2>', '<SECRET_KEY_2>');
+  var DaData = require('dadata'),
+      dadata_account_1 = new DaData('<API_KEY_1>', '<SECRET_KEY_1>'),
+      dadata_account_2 = new DaData('<API_KEY_2>', '<SECRET_KEY_2>');
 ```
 
 If you don't plan to utilize multiple instances of dadata service, it's also possible to use the short notation.

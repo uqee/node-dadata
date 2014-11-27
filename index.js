@@ -55,7 +55,7 @@ function reqSend (apiType, queries, callback) {
 }
 
 // service constructor
-function Dadata (API_KEY, SECRET_KEY) {
+function DaData (API_KEY, SECRET_KEY) {
 
   // fail if no keys provided
   if (!API_KEY || !SECRET_KEY) {
@@ -64,8 +64,8 @@ function Dadata (API_KEY, SECRET_KEY) {
   }
 
   // don't fail if someone have forgotten about new
-  else if (!(this instanceof Dadata))
-    return new Dadata(API_KEY, SECRET_KEY);
+  else if (!(this instanceof DaData))
+    return new DaData(API_KEY, SECRET_KEY);
 
   // ok
   else {
@@ -88,4 +88,4 @@ function Dadata (API_KEY, SECRET_KEY) {
 }
 
 // exports
-module.exports = Dadata;
+module.exports = DaData;
